@@ -1,0 +1,42 @@
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ./client
+[+]TCP server socket created.
+Connected to the server.
+Testing for segmentation fault get coredumpType something: boys
+Segmentation fault (core dumped)
+
+
+
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ./client
+[+]TCP server socket created.
+Connected to the server.
+Type something: Hi
+Client: HELLO, THIS IS CLIENT.
+Server: HI, THIS IS SERVER. HAVE A NICE DAY!!!
+Disconnected from the server.
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ gcc client.c -o client
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ./client
+[+]TCP server socket created.
+Connected to the server.
+Testing for segmentation fault get coredumpType something: boys
+Segmentation fault (core dumped)
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ulimit -c
+0
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ulimit -c unlimited
+onworks@onworks-Standard-PC-i440FX-PIIX-1996:~/Server-Client/Client-Server-TCP-In-C-main$ ./client
+[+]TCP server socket created.
+Connected to the server.
+Testing for segmentation fault get coredumpType something: check
+Segmentation fault (core dumped)
